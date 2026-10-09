@@ -1,6 +1,6 @@
 import streamlit as st
-from scraper import get_mobile_data
-from calculator import calculate_budget, recommend_mobiles
+from scraper.py import get_mobile_data
+from calculator.py import calculate_budget, recommend_mobiles
 
 # Page Configuration
 st.set_page_config(page_title="Budget Mobile Advisor", page_icon="📱", layout="centered")
